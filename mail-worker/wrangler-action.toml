@@ -18,7 +18,6 @@ id = "${KV_NAMESPACE_ID}"
 binding = "assets"
 directory = "./dist"
 not_found_handling = "single-page-application"
-run_worker_first = false
 
 [triggers]
 crons = ["0 16 * * *"]
